@@ -22,7 +22,7 @@ namespace randevuSistemi
             InitializeComponent();
         }
 
-        SqlConnection conn = new SqlConnection("Data Source=DESKTOP-EI3O5LF;Initial Catalog=RandevuSistemi;Integrated Security=True;");
+        SqlConnection conn = new SqlConnection("Data Source=tsomtal.com;Initial Catalog=randevuSistemi;Integrated Security=True;");
 
         public void list()
         {
